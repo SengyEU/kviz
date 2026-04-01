@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+}
+.question {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.correct {
+    color: green;
+    font-weight: bold;
+}
+.wrong {
+    color: red;
+    text-decoration: line-through;
+}
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="radio"]:disabled { 
+    cursor: not-allowed;
+}
